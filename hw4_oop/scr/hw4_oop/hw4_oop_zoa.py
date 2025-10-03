@@ -1,4 +1,4 @@
-# hw4_oop_zoa
+# hw4_oop_zoa mod 03102025
 # 1 task
 class Student:
     def __init__(self, name, age):
@@ -6,6 +6,7 @@ class Student:
         self._age = age
     
     def get_info(self):
+        
         return print(f'Студент {self.name}, возраст {self._age}')
     
     def __str__(self):
