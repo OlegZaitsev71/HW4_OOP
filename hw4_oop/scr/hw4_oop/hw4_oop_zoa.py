@@ -6,7 +6,7 @@ class Student:
         self._age = age
     
     def get_info(self):
-        print(f'Студент {self.name}, возраст {self._age}')
+        return print(f'Студент {self.name}, возраст {self._age}')
     
     def __str__(self):
         return f'{self.name}, {self._age} лет'
