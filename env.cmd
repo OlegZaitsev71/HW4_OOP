@@ -1,2 +1,0 @@
-set PROJ_NAME=hw4_oop
-set GITHUB_USER=OlegZaitsev71
